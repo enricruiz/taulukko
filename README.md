@@ -6,6 +6,8 @@ Generates easy grepable and cutable tables in ruby.
 Installation
 ------------
 
+    gem install taulukko
+
 Usage
 -----
 
