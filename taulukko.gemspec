@@ -1,6 +1,9 @@
+$:.push File.expand_path("../lib", __FILE__)
+require "taulukko/version"
+
 Gem::Specification.new do |s|
   s.name        = 'taulukko'
-  s.version     = '0.1.0'
+  s.version     = Taulukko::VERSION
   s.summary     = "Generates easy grepable and cutable tables"
   s.description = "Generates easy grepable and cutable tables"
   s.authors     = ["Enric Ruiz"]
